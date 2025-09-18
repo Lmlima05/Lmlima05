@@ -42,7 +42,7 @@
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![jEST](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
 
-### GitHub Stats ⚡
+### Estatísticas do GitHub⚡
 <div>
 <a href="https://github.com/Lmlima05">
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lmlima05&show_icons=true&hide_border=false&theme=jolly&count_private=true&include_all_commits=true"/>
