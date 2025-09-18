@@ -45,12 +45,25 @@
 ### GitHub Stats ⚡
 <div>
 <a href="https://github.com/Lmlima05">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lmlima05&layout=compact&langs_count=7&theme=dark"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lmlima05&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lmlima05&show_icons=true&hide_border=false&theme=jolly&count_private=true&include_all_commits=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lmlima05&show_icons=true&hide_border=false&theme=jolly&count_private=true&include_all_commits=true&layout=compact"/>
 </div>
+
+## GitHub Streaks 🔥
+![Streaks](https://nirzak-streak-stats.vercel.app/?user=Lmlima05&theme=jolly&date_format=j%20M%5B%20Y%5D)
 
 ### Entre em contato comigo! 📭
 <div>
 <a href="https://instagram.com/luanm.lima" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/luanmlima" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
+
+### Obrigado pela Visita! :)
+
+---
+<p align="center">
+<img src="https://github.com/VishwaGauravIn/VishwaGauravIn/blob/output/github-contribution-grid-snake-dark.svg">
+</p>
+
+[![](https://visitcountpro.netlify.app/api?id=Lmlima05&pretty=true)](https://visitcount.itsvg.in)
+
