@@ -62,8 +62,7 @@
 
 ---
 <p align="center">
-<img src="https://github.com/VishwaGauravIn/VishwaGauravIn/blob/output/github-contribution-grid-snake-dark.svg">
+<img src="https://github.com/Lmlima05/Lmlima05/blob/output/github-snake-dark.svg">
 </p>
 
-[![](https://visitcountpro.netlify.app/api?id=Lmlima05&pretty=true)](https://visitcount.itsvg.in)
 
