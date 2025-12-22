@@ -1,14 +1,9 @@
 name: GitHub Snake Game
 
 on: 
-  # Schedule the workflow to run daily at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-
-  # Allow manual triggering of the workflow
   workflow_dispatch:
-
-  # Trigger the workflow on pushes to the main branch
   push:
     branches:
       - main
@@ -17,30 +12,25 @@ jobs:
   generate:
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+    runs-on:  ubuntu-latest
     timeout-minutes: 10
 
-    steps:
-      # Step 1: Generate the snake animations
-      - name:  Generate GitHub Contributions Snake Animations
-        uses: Platane/snk/svg-only@v3
-        with:
-          # GitHub username to generate the animation for
-          github_user_name: ${{ github.repository_owner }}
-
-          # Define the output files and their configurations
+    steps: 
+      - name: Generate GitHub Contributions Snake Animations
+        uses:  Platane/snk/svg-only@v3
+        with: 
+          github_user_name:  ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark. svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets. PERSONAL_TOKEN }}
 
-      # Step 2: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
